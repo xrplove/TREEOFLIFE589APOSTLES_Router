@@ -2564,8 +2564,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.1(@rolldown/plugin-babel@0.2.3(@babel/core@7.29.7(supports-color@10.2.2))(rolldown@1.2.13)(vite@8.3.4(@types/node@25.0.9)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.105.1)(sass@1.97.2)(terser@5.51.2)(tsx@4.20.3)(yaml@2.9.0)))(babel-plugin-react-compiler@1.0.0)(vite@8.3.4(@types/node@25.0.9)(esbuild@0.28.2)(jiti@2.7.0)(sass-embedded@1.105.1)(sass@1.97.2)(terser@5.51.2)(tsx@4.20.3)(yaml@2.9.0))
       node-forge:
-        specifier: ^1.3.1
-        version: 1.3.1
+        specifier: ^1.4.1
+        version: 1.4.1
       srvx:
         specifier: ^1.0.0
         version: 1.0.5
@@ -26521,12 +26521,8 @@ packages:
     resolution: {integrity: sha512-dRB78srN/l6gqWulah9SrxeYnxeddIG30+GOqK/9OlLVyLg3HPnr6SqOWTWOXKRwC2eGYCkZ59NNuSgvSrpgOA==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
 
-  node-forge@1.3.1:
-    resolution: {integrity: sha512-dPEtOeMvF9VMcYV/1Wb8CPoVAXtp6MKMlcbAt4ddqmGqUJ6fQZFXkNZNkNlfevtNkGtaSoXf/vNNNSvgrdXwtA==}
-    engines: {node: '>= 6.13.0'}
-
-  node-forge@1.4.0:
-    resolution: {integrity: sha512-LarFH0+6VfriEhqMMcLX2F7SwSXeWwnEAJEsYm5QKWchiVYVvJyV9v7UDvUv+w5HO23ZpQTXDv/GxdDdMyOuoQ==}
+  node-forge@1.4.1:
+    resolution: {integrity: sha512-w5/MfWaeMrpR/5ba6fZyAUTLSuE6aYz7H/3cYrqwZEmf5eQS3IaaLgJt4MBv7HglGFWmV22K8h4U18RJQmw/ow==}
     engines: {node: '>= 6.13.0'}
 
   node-gyp-build@3.9.0:
@@ -35894,7 +35890,7 @@ snapshots:
       '@typescript-eslint/utils': 8.57.1(@typescript/typescript6@6.0.2)(eslint@9.22.0(jiti@2.7.0)(supports-color@7.2.0))(supports-color@10.2.2)
       '@typescript-eslint/visitor-keys': 8.57.1
       eslint: 9.22.0(jiti@2.7.0)(supports-color@7.2.0)
-      ignore: 7.0.5
+      ignore: 7.0.12
       natural-compare: 1.4.0
       ts-api-utils: 2.4.0(@typescript/typescript6@6.0.2)
       typescript: '@typescript/typescript6@6.0.2'
@@ -40743,7 +40739,7 @@ snapshots:
       h3: 1.15.11
       http-shutdown: 1.2.2
       jiti: 2.7.0
-      node-forge: 1.4.0
+      node-forge: 1.4.1
       pathe: 2.0.3
       std-env: 4.2.0
       tinyclip: 0.1.15
@@ -41282,9 +41278,7 @@ snapshots:
       fetch-blob: 3.2.0
       formdata-polyfill: 4.0.10
 
-  node-forge@1.3.1: {}
-
-  node-forge@1.4.0: {}
+  node-forge@1.4.1: {}
 
   node-gyp-build@3.9.0: {}
 
